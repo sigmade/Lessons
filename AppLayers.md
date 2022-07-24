@@ -8,14 +8,6 @@
 
 ------
 ### Упрощенная схема слоенной архитектуры.
-::: warning
-*добавление DI c интерфейсами будет расмотрено в следуующих уроках*
-:::
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+* добавление DI c интерфейсами будет расмотрено в следуующих уроках
 
 ![layerLess drawio (5)](https://user-images.githubusercontent.com/55326490/180642644-e586ffb8-2ba1-4230-9a58-ecfb35d19e6f.png)
