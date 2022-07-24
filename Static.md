@@ -28,6 +28,6 @@ public class InMemoryData
     }
 ```
 
-![LoaderAndGcHeap drawio (1)](https://user-images.githubusercontent.com/55326490/180648135-b551d5bc-f212-4c45-8573-bc724e17da17.png)
+![LoaderAndGcHeap drawio (2)](https://user-images.githubusercontent.com/55326490/180650750-8ca93164-d7cd-4251-8df9-282451a063e8.png)
 
 
