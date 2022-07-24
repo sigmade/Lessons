@@ -11,7 +11,7 @@ public class InMemoryData
             return NumbersInType;
         }
 
-        // Invoke method without create instance
+        // Invoke static method without create instance
         public static List<int> StGetNumbersFromType()
         {
             return NumbersInType;
