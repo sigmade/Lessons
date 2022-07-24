@@ -1,5 +1,5 @@
 ``` C#
-public class InMemoryDataProvider
+public class InMemoryData
     {
         private static List<int> NumbersInType = new List<int>();
         // Only instance field without static
