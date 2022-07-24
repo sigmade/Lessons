@@ -28,5 +28,6 @@ public class InMemoryDataProvider
     }
 ```
 
-![LoaderAndGcHeap drawio](https://user-images.githubusercontent.com/55326490/180648048-fe67705a-cca9-4daa-825d-ec9989c5474b.png)
+![LoaderAndGcHeap drawio (1)](https://user-images.githubusercontent.com/55326490/180648135-b551d5bc-f212-4c45-8573-bc724e17da17.png)
+
 
