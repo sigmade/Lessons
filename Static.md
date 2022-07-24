@@ -5,17 +5,17 @@ public class InMemoryData
         // Only instance field without static
         private List<int> NumbersInInstance = new List<int>();
 
-        public List<int> GetNumbersFromType()
+        public List<int> NumbersFromType()
         {
             return NumbersInType;
         }
         // Invoke method without create instance
-        public static List<int> GetNumbersFromTypeStatic()
+        public static List<int> NumbersFromTypeStatic()
         {
             return NumbersInType;
         }
 
-        public List<int> GetNumbersFromInstance()
+        public List<int> NumbersFromInstance()
         {
             return NumbersInInstance;
         }
