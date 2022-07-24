@@ -1,9 +1,9 @@
 ``` C#
 public class InMemoryData
     {
-        //The field will be available to all instances
+        //The static field will be available to all instances
         private static List<int> NumbersInType = new List<int>();
-        // Only instance field without static
+        // The non-static field will be available to the current instance
         private List<int> NumbersInInstance = new List<int>();
 
         public List<int> GetNumbersFromType()
