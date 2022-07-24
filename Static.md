@@ -1,28 +1,32 @@
 ``` C#
 public class InMemoryData
     {
+        //The field will be available to all instances
         private static List<int> NumbersInType = new List<int>();
         // Only instance field without static
         private List<int> NumbersInInstance = new List<int>();
 
-        public List<int> NumbersFromType()
-        {
-            return NumbersInType;
-        }
-        // Invoke method without create instance
-        public static List<int> NumbersFromTypeStatic()
+        public List<int> GetNumbersFromType()
         {
             return NumbersInType;
         }
 
-        public List<int> NumbersFromInstance()
+        // Invoke method without create instance
+        public static List<int> StGetNumbersFromType()
+        {
+            return NumbersInType;
+        }
+
+        public List<int> GetNumbersFromInstance()
         {
             return NumbersInInstance;
         }
 
         public void AddNew(int num)
         {
+            //The added element will be available to all instances
             NumbersInType.Add(num);
+            //The added element will be available to the current instance
             NumbersInInstance.Add(num);
         }
     }
