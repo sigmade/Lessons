@@ -1,7 +1,3 @@
-##Interfaces for DI
-
-1. Upcasting object to Interface
-
 ``` C#
 internal class Program
     {
