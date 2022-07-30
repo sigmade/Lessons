@@ -41,3 +41,34 @@ internal class Program
 
 ![image](https://user-images.githubusercontent.com/55326490/181919293-fdc472b5-3b63-4a1d-b055-435c16f0587c.png)
 
+2. Interface - method parameter
+
+
+``` C#
+internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Console show InMemoryData
+            SomeMethod(new InMemoryData());
+
+            Console.ReadKey();
+        }
+
+        public static void SomeMethod(IDataProvider provider)
+        {
+            provider.GetAll();
+        }
+
+        public interface IDataProvider
+        {
+            void GetAll();
+        }
+
+        public class InMemoryData : IDataProvider
+        {
+            public void GetAll() => Console.WriteLine("InMemoryData");
+        }
+    }
+```
+
