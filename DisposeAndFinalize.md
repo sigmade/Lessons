@@ -11,3 +11,7 @@
 Часто Dispose и Finilze применяются вместе, например если разработчик забыл вызвать Dispose
 неуправляемые ресурсы все равно будут освобожденны при сборке мусора. В таком случае в методе Dispose 
 указывается GC.SuppressFinalize(this) который сообщит GC что объект не нуждается в финализации
+
+![image](https://user-images.githubusercontent.com/55326490/181877143-7467be79-6374-4cf4-bd2d-efbdbd2a8d81.png)
+
+### [Репозиторий проекта](https://github.com/sigmade/DisposeAndFinalize)
